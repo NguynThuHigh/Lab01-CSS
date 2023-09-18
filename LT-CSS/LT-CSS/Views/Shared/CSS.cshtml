@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/Content/Style1.css"
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <header>
+            BANNER
+        </header>
+    </div>
+    <div>
+        <nav>
+            Navigator
+        </nav>
+    </div>
+    <div>
+        <div class="side-bar">
+            Sidebar
+        </div>
+        <div class="content">
+            Content
+        </div>
+    </div>
+    <div>
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
